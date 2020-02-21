@@ -1,0 +1,8 @@
+CXX	:=	g++ --std=c++11 -g -O2
+all: hw4
+
+hw4:	hw4.cc hw4V2.s
+	$(CXX) hw4.cc add.s -o hw4
+
+clean:
+	rm hw4 *.o
