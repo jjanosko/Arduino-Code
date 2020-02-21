@@ -1,6 +1,6 @@
 CXX	:=	g++ --std=c++11 -g -O2
 
-hw4:	hw4.cc hw4V2.s
+hw4:	hw4.cc, hw4V2.s
 	$(CXX) hw4.cc hw4V2.s -o hw4
 
 clean:
